@@ -13,6 +13,7 @@ or
 ```
 $ make test
 ```
+
 ##Why
 Node.js has a lot of events. The process object has events. HTTP servers have events. Streams have events. Higher-level modules have events. However, you can't really write a web app with events. Node http servers emit events, but they don't emit events based on the **type** of request. For example
 ```javascript

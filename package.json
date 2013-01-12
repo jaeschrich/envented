@@ -1,7 +1,7 @@
 {
-  "name": "evented",
-  "version": "0.0.1",
-  "description": "Event-based server",
+  "name": "envented",
+  "version": "0.0.11",
+  "description": "Evented node.js server framework",
   "main": "index.js",
   "directories": {
     "test": "test"
