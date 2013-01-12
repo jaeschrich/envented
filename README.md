@@ -1,7 +1,20 @@
 #envented
 ##Evented node.js server framework
+##Install
+```
+$ npm install envented
+```
+
+##Run tests
+```
+$ npm test
+``` 
+or 
+```
+$ make test
+```
 ##Why
-Node.js has a lot of events. The process object has events. HTTP servers have events. Streams have events. Higher-level applications have events. However, you can't really write a web app with events. Node http servers emit events, but they don't emit events based on the **type** of request. For example
+Node.js has a lot of events. The process object has events. HTTP servers have events. Streams have events. Higher-level modules have events. However, you can't really write a web app with events. Node http servers emit events, but they don't emit events based on the **type** of request. For example
 ```javascript
 var server = http.createServer();
 server.on('request', function(req, res){
@@ -36,5 +49,5 @@ server.on('post::/form', function(req, res){
 	// handle post data
 });
 ```
-The event namespacing is courtesy of EventEmitter2. And all your favorite connect middleware is inside of envented.
+The event namespacing is courtesy of EventEmitter2. All your favorite connect middleware is inside of envented.
 

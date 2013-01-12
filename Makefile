@@ -1,5 +1,8 @@
-clean:
-	rm */*.js
+test:
+	npm test
 
-compile:
-	coffee -o lib -c src
+install: 
+	npm install .
+
+clean:
+	rm */*.*~
