@@ -1,0 +1,27 @@
+{
+  "name": "evented",
+  "version": "0.0.1",
+  "description": "Event-based server",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": "",
+  "keywords": [
+    "events",
+    "server"
+  ],
+  "author": "PyScripter255",
+  "license": "MIT",
+  "dependencies": {
+    "eventemitter2": "~0.4.11",
+    "connect": "~2.7.2"
+  },
+  "devDependencies": {
+	"superagent": "*",
+	"colors": "*"
+  }
+}
