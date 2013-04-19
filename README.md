@@ -40,7 +40,7 @@ var envented = require('envented');
 
 var server = envented.Server() // this accepts an onRequest callback
 
-server.use(server.router); // server is a connect.Server instance. YOU MUST USE THE ROUTER
+server.use(server.router); // server is an EventEmitter2 instance. YOU MUST USE THE ROUTER
 
 server.on('get::/', function(req, res){
 	res.end("Hi");
